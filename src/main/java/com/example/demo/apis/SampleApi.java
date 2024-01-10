@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("api/v1/sample")
 public class SampleApi {
     @GetMapping
-    public ResponseEntity<String> get(){
-        return ResponseEntity.ok("Hello, something different!");
+    public ResponseEntity<String> get() {
+        return ResponseEntity.ok("Hello, something !");
 
 
     }
